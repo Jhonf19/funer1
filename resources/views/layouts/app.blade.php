@@ -61,6 +61,10 @@
                                             >
                                                 {{ __('Listado') }}
                                             </a>
+                                            <a class="dropdown-item" href="{{ route('customers.create') }}"
+                                            >
+                                                {{ __('Crear') }}
+                                            </a>
 
                                         
                                         </div>
